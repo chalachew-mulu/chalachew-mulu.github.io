@@ -32,11 +32,25 @@
         <div class="sidebar">
             <div class="sidebar-text d-flex flex-column h-100 justify-content-center text-center">
                 <img class="w-100 img-fluid mb-4" src="img/profile.jpg" alt="Image">
-                <h1 class="mt-2">Chalachew Mulu</h1>
+                <h2 class="mt-2">Chalachew Mulu</h2>
                 <div class="mb-4" style="height: 22px;">
                     <h4 class="typed-text-output d-inline-block text-body"></h4>
-                    <div class="typed-text d-none">Data Scientist, Data Analyst, Software Developer, AI Researcher,
-                        Freelancer</div>
+                    <div class="typed-text d-none">Data Scientist, Data Analyst, Software Developer, AI Researcher, Freelancer</div>
+                </div>
+                <div class="d-flex align-items-end justify-content-between">
+                    <a href="#about" class="btn btn-block btn-scroll" style="border-bottom: 1px solid #ddd;">About Me</a>
+                </div>
+                <div class="d-flex align-items-end justify-content-between">
+                    <a href="#service" class="btn btn-block btn-scroll" style="border-bottom: 1px solid #ddd;">Service</a>
+                </div>
+                <div class="d-flex align-items-end justify-content-between">
+                    <a href="#portfolio" class="btn btn-block btn-scroll" style="border-bottom: 1px solid #ddd;">Portfolio</a>
+                </div>
+                <div class="d-flex align-items-end justify-content-between">
+                    <a href="#blog" class="btn btn-block btn-scroll" style="border-bottom: 1px solid #ddd;">Blog</a>
+                </div>
+                <div class="d-flex align-items-end justify-content-between">
+                    <a href="#contact" class="btn btn-block btn-scroll" style="border-bottom: 1px solid #ddd;">Contact Me</a>
                 </div>
                 <div class="d-flex justify-content-center mt-auto mb-3">
                     <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
@@ -45,16 +59,12 @@
                     <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
                     <a class="mx-2" href="#"><i class="fab fa-youtube"></i></a>
                 </div>
-                <div class="d-flex align-items-end justify-content-between">
-                    <a href="" class="btn btn-block border-right">Download CV</a>
-                    <a href="#contact" class="btn btn-block btn-scroll">Contact Me</a>
-                </div>
             </div>
             <div class="sidebar-icon d-flex flex-column h-100 justify-content-center text-right">
                 <i class="fas fa-2x fa-angle-double-right text-primary"></i>
             </div>
         </div>
-        <div class="content">
+        <div class="content" id="about">
             <!-- About Start -->
             <div class="container bg-white py-5">
                 <div class="row px-3">
@@ -80,7 +90,7 @@
                                 <h5 class="d-inline text-primary">Degree:</h5> Master
                             </div>
                             <div class="col-sm-6 py-1">
-                                <h5 class="d-inline text-primary">Experience:</h5> 3+ Years
+                                <h5 class="d-inline text-primary">Experience:</h5> 4+ Years
                             </div>
                             <div class="col-sm-6 py-1">
                                 <h5 class="d-inline text-primary">Phone:</h5> +251 946 098 413
@@ -107,72 +117,75 @@
                     <div class="col-12">
                         <h2 class="title position-relative pb-2 mb-4">Skills</h2>
                     </div>
-                    <div class="col-sm-6">
-                        <div class="skill mb-4">
-                            <div class="d-flex justify-content-between">
-                                <p class="mb-2">HTML</p>
-                                <p class="mb-2">95%</p>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
+                    <div class="col-md-4">
+                        <div class="skill mb-4 d-flex align-items-center">
+                            <i class="fab fa-java fa-2x text-info me-3"></i>
+                            <p class="mb-0 ml-2">Java</p>
                         </div>
-                        <div class="skill mb-4">
-                            <div class="d-flex justify-content-between">
-                                <p class="mb-2">CSS</p>
-                                <p class="mb-2">85%</p>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
+                        <div class="skill mb-4 d-flex align-items-center">
+                            <i class="fab fa-python fa-2x text-secondary me-3"></i>
+                            <p class="mb-0 ml-2">Python</p>
                         </div>
-                        <div class="skill mb-4">
-                            <div class="d-flex justify-content-between">
-                                <p class="mb-2">PHP</p>
-                                <p class="mb-2">90%</p>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
+                        <div class="skill mb-4 d-flex align-items-center">
+                            <i class="fas fa-database fa-2x text-danger me-3"></i>
+                            <p class="mb-0 ml-2">SQL</p>
+                        </div>
+                        <div class="skill mb-4 d-flex align-items-center">
+                            <i class="fas fa-code fa-2x text-primary me-3"></i>
+                            <p class="mb-0 ml-2">Web Development</p>
+                        </div>
+                        <div class="skill mb-4 d-flex align-items-center">
+                            <i class="fas fa-brain fa-2x text-success me-3"></i>
+                            <p class="mb-0 ml-2">Machine Learning</p>
                         </div>
                     </div>
-                    <div class="col-sm-6">
-                        <div class="skill mb-4">
-                            <div class="d-flex justify-content-between">
-                                <p class="mb-2">Javascript</p>
-                                <p class="mb-2">90%</p>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
+                    <div class="col-md-4">
+                        <div class="skill mb-4 d-flex align-items-center">
+                            <i class="fas fa-project-diagram fa-2x text-warning me-3"></i>
+                            <p class="mb-0 ml-2">TensorFlow</p>
                         </div>
-                        <div class="skill mb-4">
-                            <div class="d-flex justify-content-between">
-                                <p class="mb-2">Angular JS</p>
-                                <p class="mb-2">95%</p>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
+                        <div class="skill mb-4 d-flex align-items-center">
+                            <i class="fas fa-language fa-2x text-primary me-3"></i>
+                            <p class="mb-0 ml-2">NLP Toolkit</p>
                         </div>
-                        <div class="skill mb-4">
-                            <div class="d-flex justify-content-between">
-                                <p class="mb-2">Wordpress</p>
-                                <p class="mb-2">85%</p>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
+                        <div class="skill mb-4 d-flex align-items-center">
+                            <i class="fas fa-robot fa-2x text-warning me-3"></i>
+                            <p class="mb-0 ml-2">Generative AI</p>
+                        </div>
+                        <div class="skill mb-4 d-flex align-items-center">
+                            <i class="fas fa-cogs fa-2x text-secondary me-3"></i>
+                            <p class="mb-0 ml-2">Keras</p>
+                        </div>
+                        <div class="skill mb-4 d-flex align-items-center">
+                            <i class="fab fa-react fa-2x text-warning me-3"></i>
+                            <p class="mb-0 ml-2">PyTorch</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="skill mb-4 d-flex align-items-center">
+                            <i class="fas fa-chart-line fa-2x text-danger me-3"></i>
+                            <p class="mb-0 ml-2">Data Visualization</p>
+                        </div>
+                        <div class="skill mb-4 d-flex align-items-center">
+                            <i class="fas fa-clock fa-2x text-primary me-3"></i>
+                            <p class="mb-0 ml-2">Time Series Analysis</p>
+                        </div>
+                        <div class="skill mb-4 d-flex align-items-center">
+                            <i class="fas fa-network-wired fa-2x text-dark me-3"></i>
+                            <p class="mb-0 ml-2">Hadoop</p>
+                        </div>
+                        <div class="skill mb-4 d-flex align-items-center">
+                            <i class="fab fa-r-project fa-2x text-info me-3"></i>
+                            <p class="mb-0 ml-2">R</p>
+                        </div>
+                        <div class="skill mb-4 d-flex align-items-center">
+                            <i class="fas fa-chart-bar fa-2x text-primary me-3"></i>
+                            <p class="mb-0 ml-2">Power BI</p>
                         </div>
                     </div>
                 </div>
             </div>
+            
             <!-- Skills End -->
 
 
@@ -267,34 +280,36 @@
 
 
             <!-- Services Start -->
-            <div class="container bg-white pt-5 pb-3">
+            <div class="container bg-white pt-5 pb-3" id="service">
                 <div class="row px-3">
                     <div class="col-12">
                         <h2 class="title position-relative pb-2 mb-4">Services</h2>
                     </div>
                     <div class="col-md-6 service-item text-center mb-3">
                         <i class="fa fa-2x fa-laptop-code mx-auto mb-4"></i>
-                        <h5 class="mb-2">Web Design</h5>
-                        <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est
-                            amet labore</p>
+                        <h5 class="mb-2">Data Analysis</h5>
+                        <p>I offer data analysis services to help businesses gain insights from their data. 
+                            Utilizing statistical techniques and visualization tools,
+                             I provide clear reports that support informed decision-making.</p>
                     </div>
                     <div class="col-md-6 service-item text-center mb-3">
                         <i class="fab fa-2x fa-android mx-auto mb-4"></i>
-                        <h5 class="mb-2">Apps Development</h5>
-                        <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est
-                            amet labore</p>
+                        <h5 class="mb-2">Scripting</h5>
+                        <p>I provide scripting services for ODK, SurveyCTO, and other data collection tools, 
+                            ensuring efficient data workflows
+                             and customized solutions tailored to your project's needs.</p>
                     </div>
                     <div class="col-md-6 service-item text-center mb-3">
                         <i class="fa fa-2x fa-search mx-auto mb-4"></i>
-                        <h5 class="mb-2">SEO</h5>
-                        <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est
-                            amet labore</p>
+                        <h5 class="mb-2">Data Visualization</h5>
+                        <p>I specialize in creating insightful data visualizations that effectively communicate complex information, 
+                            helping you make informed decisions based on your data.</p>
                     </div>
                     <div class="col-md-6 service-item text-center mb-3">
-                        <i class="fa fa-2x fa-edit mx-auto mb-4"></i>
-                        <h5 class="mb-2">Content Creating</h5>
-                        <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est
-                            amet labore</p>
+                        <i class="fa fa-2x fa-laptop mx-auto mb-4"></i> <!-- Updated the icon to 'laptop' -->
+                        <h5 class="mb-2">Web Design and Development</h5>
+                        <p>I provide comprehensive web design and development services, 
+                            focusing on creating user-friendly, responsive websites that enhance your online presence.</p>
                     </div>
                 </div>
             </div>
@@ -302,7 +317,7 @@
 
 
             <!-- Portfolio Start -->
-            <div class="container bg-white pt-5 pb-3">
+            <div class="container bg-white pt-5 pb-3" id="portfolio">
                 <div class="row px-3">
                     <div class="col-12">
                         <h2 class="title position-relative pb-2 mb-4">Portfolio</h2>
@@ -378,9 +393,8 @@
                         <div class="owl-carousel testimonial-carousel">
                             <div class="text-left">
                                 <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                                <h4 class="text-body mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum
-                                    elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam
-                                    amet eirmod eos, labore diam clita</h4>
+                                <h4 class="text-body mb-4">Working with this team has significantly enhanced our data analysis capabilities, 
+                                    delivering insights that drive impactful decisions.</h4>
                                 <div class="d-flex align-items-center">
                                     <img class="img-fluid" src="img/testimonial-1.jpg"
                                         style="width: 60px; height: 60px;">
@@ -392,29 +406,27 @@
                             </div>
                             <div class="text-left">
                                 <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                                <h4 class="text-body mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum
-                                    elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam
-                                    amet eirmod eos, labore diam clita</h4>
+                                <h4 class="text-body mb-4">Collaborating with this team has streamlined our data processes and 
+                                    empowered us with actionable insights that drive our projects forward.</h4>
                                 <div class="d-flex align-items-center">
                                     <img class="img-fluid" src="img/testimonial-2.jpg"
                                         style="width: 60px; height: 60px;">
                                     <div class="pl-3">
-                                        <h5 class="text-primary m-0">Client Name</h5>
-                                        <i>Profession</i>
+                                        <h5 class="text-primary m-0">Mercibon Melese</h5>
+                                        <i>Data Analyst and Engineer</i>
                                     </div>
                                 </div>
                             </div>
                             <div class="text-left">
                                 <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                                <h4 class="text-body mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum
-                                    elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam
-                                    amet eirmod eos, labore diam clita</h4>
+                                <h4 class="text-body mb-4">Our partnership has significantly enhanced our project's impact, 
+                                    leveraging data-driven strategies to achieve our goals more efficiently</h4>
                                 <div class="d-flex align-items-center">
                                     <img class="img-fluid" src="img/testimonial-3.jpg"
                                         style="width: 60px; height: 60px;">
                                     <div class="pl-3">
-                                        <h5 class="text-primary m-0">Client Name</h5>
-                                        <i>Profession</i>
+                                        <h5 class="text-primary m-0">Wahid Manaye</h5>
+                                        <i>SART Excutive Director</i>
                                     </div>
                                 </div>
                             </div>
@@ -483,17 +495,6 @@
                                 class="fab fa-linkedin-in"></i></a>
                         <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
                     </div>
-                    <div class="d-flex justify-content-center mb-3">
-                        <a class="text-white" href="#">Privacy</a>
-                        <span class="px-3">|</span>
-                        <a class="text-white" href="#">Terms</a>
-                        <span class="px-3">|</span>
-                        <a class="text-white" href="#">FAQs</a>
-                        <span class="px-3">|</span>
-                        <a class="text-white" href="#">Help</a>
-                    </div>
-                    <p class="m-0">&copy; All Rights Reserved. Designed by <a href="https://htmlcodex.com">HTML
-                            Codex</a></p>
                 </div>
             </div>
             <!-- Footer End -->
